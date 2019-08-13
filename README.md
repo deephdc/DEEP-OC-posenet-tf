@@ -2,11 +2,11 @@
 <img src="https://marketplace.deep-hybrid-datacloud.eu/images/logo-deep.png" alt="logo" width="300"/>
 </div>
 
-# DEEP as a Service container for speech to text
+# DEEP as a Service container for real-time pose estimation
 
 [![Build Status](https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/DEEP-OC-posenet-tf/master)](https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/DEEP-OC-posenet-tf/job/master)
 
-This is a container that will run the DEEP as a Service API component with the [speech to text module](https://github.com/deephdc/posenet-tf).
+This is a container that will run the DEEP as a Service API component with the [posenet-tf module](https://github.com/deephdc/posenet-tf).
 
 
 ## Run the container
