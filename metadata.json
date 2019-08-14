@@ -3,7 +3,7 @@
     "summary": "Speech to text using Tensorflow",
     "description": [
                 "This is a plug-and-play tool for real-time pose estimation using deep neural networks. The original model, weights, code, etc. was created by Google and can be found at https://github.com/tensorflow/tfjs-models/tree/master/posenet.",
-                "PoseNet can be used to estimate either a single pose or multiple poses, meaning there is a version of the algorithm that can detect only one person in an image/video and one version that can detect multiple persons in an image/video."
+                "PoseNet can be used to estimate either a single pose or multiple poses, meaning there is a version of the algorithm that can detect only one person in an image/video and one version that can detect multiple persons in an image/video.",
                 "The module implemented here works on pictures (either uploaded or using an URL) and gives as output the different body keypoints with the corresponding coordinates and the associated key score"
 	],
     "keywords": [
