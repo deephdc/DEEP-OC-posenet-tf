@@ -5,12 +5,12 @@ ARG pyVer=py3
 FROM tensorflow/tensorflow:${tag}-${pyVer}
 LABEL maintainer="Lara Lloret Iglesias <lloret@ifca.unican.es>"
 LABEL version="0.1"
-LABEL description="DEEP as a Service Container: Speech to text using Tensorflow"
+LABEL description="DEEP as a Service Container: Posenet using Tensorflow"
 
 # Add container's metadata to appear along the models metadata
 ENV CONTAINER_MAINTAINER "Lara Lloret Iglesias <lloret@ifca.unican.es>"
 ENV CONTAINER_VERSION "0.1"
-ENV CONTAINER_DESCRIPTION "DEEP as a Service Container: Image Speech To Text"
+ENV CONTAINER_DESCRIPTION "DEEP as a Service Container: Posenet"
 
 # What user branch to clone (!)
 ARG branch=master
