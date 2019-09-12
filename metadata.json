@@ -1,6 +1,6 @@
 {
     "title": "DEEP OC Posenet",
-    "summary": "Speech to text using Tensorflow",
+    "summary": "Posenet using Tensorflow",
     "description": [
                 "This is a plug-and-play tool for real-time pose estimation using deep neural networks. The original model, weights, code, etc. was created by Google and can be found at https://github.com/tensorflow/tfjs-models/tree/master/posenet.",
                 "PoseNet can be used to estimate either a single pose or multiple poses, meaning there is a version of the algorithm that can detect only one person in an image/video and one version that can detect multiple persons in an image/video.",
