@@ -11,7 +11,7 @@
         "<img class='fit', src='https://raw.githubusercontent.com/deephdc/DEEP-OC-posenet-tf/master/images/posenet.png'/>\n"
     ],
     "keywords": [
-        "services", "library/tensorflow", "docker", "deep learning", "api-v1"
+        "services", "library/tensorflow", "docker", "deep learning", "inference", "api-v1"
     ],
     "license": "Apache 2.0",
     "date_creation": "2019-07-31",
