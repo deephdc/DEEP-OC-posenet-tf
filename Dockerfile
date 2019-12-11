@@ -61,7 +61,7 @@ RUN pip install --no-cache-dir flaat && \
 ENV DISABLE_AUTHENTICATION_AND_ASSUME_AUTHENTICATED_USER yes
 
 # Install DEEPaaS from PyPi:
-RUN pip install --no-cache-dir "deepaas<1.0" && \
+RUN pip install --no-cache-dir deepaas && \
     rm -rf /root/.cache/pip/* && \
     rm -rf /tmp/*
 
@@ -81,8 +81,12 @@ RUN if [ "$jlab" = true ]; then \
        git clone https://github.com/deephdc/deep-jupyter /srv/.jupyter ; \
     else echo "[INFO] Skip JupyterLab installation!"; fi
 
+# Update OpenCV packages
+RUN apt-get update && \
+    apt-get install -y libsm6 libxext6 libxrender-dev
+
 # Install user app:
-RUN git clone -b $branch https://github.com/deephdc/posenet-tf.git && \
+RUN git clone -b $branch https://github.com/deephdc/posenet-tf && \
     cd posenet-tf && \
     pip install --no-cache-dir -e . && \
     rm -rf /root/.cache/pip/* && \
